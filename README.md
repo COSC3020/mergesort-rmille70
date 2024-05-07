@@ -22,4 +22,4 @@ In order to analyse the worst-case time complexity 'mergesort' we can break up t
 
 2) Inner For Loop (Merging)-- The worst case complexity for the 'merge' function would be an array where no element within the array is in its final position. This is becasue shifting one element into its correct position has a complexity of $\Theta(n),$ so doing that across all $n$ total elements would mean a complexity of $\Theta(n*n)$ or $\Theta(n^2).$
 
-So we are taking the array and dividing it into $\log(n)$ subarrays, then merging $\log(n)$ subarrays with a merge function with a worst-case complexity of $\Theta(n^2)$ Thus the total worst case asymtotic complexity of 'mergesort()' is $\Theta(n^2 * \log(n)).$
+So we are taking the array and dividing it into $\log(n)$ subarrays, then merging those subarrays with a merge function with a worst-case complexity of $\Theta(n^2)$ Thus the total worst case asymtotic complexity of 'mergesort()' is $\Theta(n^2 * \log(n)).$
